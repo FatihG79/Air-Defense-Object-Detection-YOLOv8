@@ -5,8 +5,8 @@ This repository contains the source code and implementation details for a specia
 ---
 
 ## 📊 Project Quick Links
-* **Live Kaggle Dataset (10.0 Usability):** Link(https://www.kaggle.com/datasets/caferfatihgltekin/air-defense-object-detection-dataset-yolov8)
-* **Interactive Kaggle Notebook:** Link(https://www.kaggle.com/datasets/caferfatihgltekin/air-defense-object-detection-dataset-yolov8/data)
+* **Live Kaggle Dataset (10.0 Usability):** [Kaggle Dataset](https://www.kaggle.com/datasets/caferfatihgltekin/air-defense-object-detection-dataset-yolov8)
+* **Interactive Kaggle Notebook:** [Kaggle Notebook](https://www.kaggle.com/code/caferfatihgltekin/yolov8-air-defense-inference-test)
 
 ---
 
