@@ -5,6 +5,7 @@ This repository contains the source code and implementation details for a specia
 ---
 
 ## 📊 Project Quick Links
+* **Watch the Video Demo (YouTube):** [YouTube Video](https://youtu.be/VNkCsV3xHDg?si=cotnhzS1kFiF9gh_)
 * **Live Kaggle Dataset (10.0 Usability):** [Kaggle Dataset](https://www.kaggle.com/datasets/caferfatihgltekin/air-defense-object-detection-dataset-yolov8)
 * **Pre-trained Model Weights (Hugging Face):** [Hugging Face Model](https://huggingface.co/FatihG79/yolov8-air-defense-detection)
 * **Interactive Kaggle Notebook:** [Kaggle Notebook](https://www.kaggle.com/code/caferfatihgltekin/yolov8-air-defense-inference-test)
