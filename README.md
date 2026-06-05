@@ -5,11 +5,19 @@ This repository contains the source code and implementation details for a specia
 ---
 
 ## 📊 Project Quick Links
-* **Live Kaggle Dataset:** [Kaggle Dataset](https://www.kaggle.com/datasets/caferfatihgltekin/air-defense-object-detection-dataset-yolov8)
+* **Live Kaggle Dataset (10.0 Usability):** [Kaggle Dataset](https://www.kaggle.com/datasets/caferfatihgltekin/air-defense-object-detection-dataset-yolov8)
 * **Pre-trained Model Weights (Hugging Face):** [Hugging Face Model](https://huggingface.co/FatihG79/yolov8-air-defense-detection)
 * **Interactive Kaggle Notebook:** [Kaggle Notebook](https://www.kaggle.com/code/caferfatihgltekin/yolov8-air-defense-inference-test)
 
 ---
+
+## 🔥 Model Inference Results
+
+Below are real-time detection examples of the YOLOv8 model tracking high-speed aerial targets:
+
+| F-16 Detection | Drone / Quadcopter Tracking | Rocket Detection |
+| :---: | :---: | :---: |
+| <img src="assets/f16detect.gif" width="250"> | <img src="assets/quadcopterDetect.gif" width="250"> | <img src="assets/rocketDetect.gif" width="250"> |
 
 ## 🎯 Target Classes
 The custom model is robustly trained to detect and classify **4 distinct classes**:
@@ -39,7 +47,7 @@ The dataset leverages a hybrid approach combining high-fidelity synthetic data a
 
 ## 🚀 How to Run Inference
 
-You can run immediate inference using the pre-trained weights (`model.pt`) included in the Kaggle dataset.
+You can run immediate inference using the pre-trained weights (`model.pt`) directly from this repository or Hugging Face.
 
 ```python
 from ultralytics import YOLO
@@ -47,5 +55,5 @@ from ultralytics import YOLO
 # Load the custom trained model weights
 model = YOLO('path_to/model.pt')
 
-# Run inference on test images
-results = model.predict(source='path_to/test_images', save=True, imgsz=640)
+# Run inference on test videos or images
+results = model.predict(source='path_to/test_media', save=True, imgsz=640)
